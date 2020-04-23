@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>WPI: Emergency Guide</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="scripts.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<h4 class="topBanner">Emergency Management</h4>
+
+<h1 class="title">Campus Emergency Guide</h1>
+<hr width="20%">
+<br>
+<div class="top_box">
+    <p><b><span style="color: #8B0000">To report any emergency or suspicious activity, call Campus Police immediately.</span></b></p>
+    <p style="margin-top:-10px;">Off campus: <span style="color: #8B0000; text-decoration:underline;">(508)831-5555</span></p>
+    <p style="margin-top:-10px;">On campus: <span style="color: #8B0000; text-decoration:underline;">5555</span></p>
+</div>
+
+<br>
+
+
+<div class="row1">
+    <button class="box" onclick="toggleDiv('EmergencyContacts','row1')"><b>Emergency Contacts & Resources</b></button>
+    <button class="box2Row1" onclick="toggleDiv('ReportingEmergencies','row1')"><b>Reporting Emergencies</b></button>
+    <button class="box" onclick="toggleDiv('ActiveShooter','row1')"><b>Active Shooter</b></button>
+    <button class="box" onclick="toggleDiv('HostageSituation','row1')"><b>Hostage Situation</b></button>
+</div>
+<div id="EmergencyContacts">
+    <h3 style="color: #8B0000">Emergency Contacts & Resources</h3>
+    <p>This is dummy text</p>
+    <p>If a Shelter-in-Place is ordered:</p>
+    <p>• If outside, seek shelter in the nearest building, preferably in an interior room with few windows.</p>
+    <p>• Allow access to others seeking shelter. Remember: a Shelter-in-Place order means there are dangerous environmental conditions but NOT any
+        known threat of violent behavior. Allowing others into the building will not jeopardize your safety.</p>
+    <p>• Close all exterior doors, windows and any other openings to the outside.</p>
+    <p>• Avoid overcrowding by selecting several rooms if necessary</p>
+    <p>• Monitor WPI Alert and email for further instructions</p>
+    <p>• Report any emergency or unusual conditions to WPI Police.</p>
+    <p>• Do not leave the building until receiving the “all clear” from a police officer, WPI Alert, email or website.</p>
+    <button class ="closeButton" onclick="toggleDiv('EmergencyContacts')"><b>Close X</b></button>
+    <br>
+    <hr>
+</div>
+
+<div id="ReportingEmergencies">
+    <h3 style="color: #8B0000">Reporting Emergencies</h3>
+    <p>Shelter-in-Place is designed to keep you safe while indoors if dangerous environmental conditions exist, such as extreme weather or a hazardous
+        materials release.</p>
+    <p>If a Shelter-in-Place is ordered:</p>
+    <p>• If outside, seek shelter in the nearest building, preferably in an interior room with few windows.</p>
+    <p>• Allow access to others seeking shelter. Remember: a Shelter-in-Place order means there are dangerous environmental conditions but NOT any
+        known threat of violent behavior. Allowing others into the building will not jeopardize your safety.</p>
+    <p>• Close all exterior doors, windows and any other openings to the outside.</p>
+    <p>• Avoid overcrowding by selecting several rooms if necessary</p>
+    <p>• Monitor WPI Alert and email for further instructions</p>
+    <p>• Report any emergency or unusual conditions to WPI Police.</p>
+    <p>• Do not leave the building until receiving the “all clear” from a police officer, WPI Alert, email or website.</p>
+    <button class ="closeButton" onclick="toggleDiv('ReportingEmergencies')"><b>Close X</b></button>
+    <br>
+    <hr>
+</div>
+
+<div id="ActiveShooter">
+    <h3 style="color: #8B0000">Active Shooter</h3>
+    <p>Shelter-in-Place is designed to keep you safe while indoors if dangerous environmental conditions exist, such as extreme weather or a hazardous
+        materials release.</p>
+    <p>If a Shelter-in-Place is ordered:</p>
+    <p>• If outside, seek shelter in the nearest building, preferably in an interior room with few windows.</p>
+    <p>• Allow access to others seeking shelter. Remember: a Shelter-in-Place order means there are dangerous environmental conditions but NOT any
+        known threat of violent behavior. Allowing others into the building will not jeopardize your safety.</p>
+    <p>• Close all exterior doors, windows and any other openings to the outside.</p>
+    <p>• Avoid overcrowding by selecting several rooms if necessary</p>
+    <p>• Monitor WPI Alert and email for further instructions</p>
+    <p>• Report any emergency or unusual conditions to WPI Police.</p>
+    <p>• Do not leave the building until receiving the “all clear” from a police officer, WPI Alert, email or website.</p>
+    <button class ="closeButton" onclick="toggleDiv('ActiveShooter')"><b>Close X</b></button>
+    <br>
+    <hr>
+</div>
+
+<div id="HostageSituation">
+    <h3 style="color: #8B0000">Hostage Situation</h3>
+    <p>Shelter-in-Place is designed to keep you safe while indoors if dangerous environmental conditions exist, such as extreme weather or a hazardous
+        materials release.</p>
+    <p>If a Shelter-in-Place is ordered:</p>
+    <p>• If outside, seek shelter in the nearest building, preferably in an interior room with few windows.</p>
+    <p>• Allow access to others seeking shelter. Remember: a Shelter-in-Place order means there are dangerous environmental conditions but NOT any
+        known threat of violent behavior. Allowing others into the building will not jeopardize your safety.</p>
+    <p>• Close all exterior doors, windows and any other openings to the outside.</p>
+    <p>• Avoid overcrowding by selecting several rooms if necessary</p>
+    <p>• Monitor WPI Alert and email for further instructions</p>
+    <p>• Report any emergency or unusual conditions to WPI Police.</p>
+    <p>• Do not leave the building until receiving the “all clear” from a police officer, WPI Alert, email or website.</p>
+    <button class ="closeButton" onclick="toggleDiv('HostageSituation')"><b>Close X</b></button>
+    <br>
+    <hr>
+</div>
+
+<div class="row2">
+    <button class="box" onclick="toggleDiv('Lockdown','row2')"><b>Lockdown</b></button>
+    <button class="box2Row2" onclick="toggleDiv('ShelterInPlace','row2')"><b>Shelter-In-Place</b></button>
+    <button class="box" onclick="toggleDiv('Fire','row2')"><b>Fire</b></button>
+    <button class="box" onclick="toggleDiv('FireEvacuation','row2')"><b>Fire Evacuation</b></button>
+</div>
+<div id="Lockdown">
+    <h3 style="color: #8B0000">Lockdown</h3>
+    <p>This is dummy text</p>
+    <p>If a Shelter-in-Place is ordered:</p>
+    <p>• If outside, seek shelter in the nearest building, preferably in an interior room with few windows.</p>
+    <p>• Allow access to others seeking shelter. Remember: a Shelter-in-Place order means there are dangerous environmental conditions but NOT any
+        known threat of violent behavior. Allowing others into the building will not jeopardize your safety.</p>
+    <p>• Close all exterior doors, windows and any other openings to the outside.</p>
+    <p>• Avoid overcrowding by selecting several rooms if necessary</p>
+    <p>• Monitor WPI Alert and email for further instructions</p>
+    <p>• Report any emergency or unusual conditions to WPI Police.</p>
+    <p>• Do not leave the building until receiving the “all clear” from a police officer, WPI Alert, email or website.</p>
+    <button class ="closeButton" onclick="toggleDiv('Lockdown')"><b>Close X</b></button>
+    <br>
+    <hr>
+</div>
+
+<div id="ShelterInPlace">
+    <h3 style="color: #8B0000">Shelter-In-Place</h3>
+    <p>Shelter-in-Place is designed to keep you safe while indoors if dangerous environmental conditions exist, such as extreme weather or a hazardous
+        materials release.</p>
+    <p>If a Shelter-in-Place is ordered:</p>
+    <p>• If outside, seek shelter in the nearest building, preferably in an interior room with few windows.</p>
+    <p>• Allow access to others seeking shelter. Remember: a Shelter-in-Place order means there are dangerous environmental conditions but NOT any
+        known threat of violent behavior. Allowing others into the building will not jeopardize your safety.</p>
+    <p>• Close all exterior doors, windows and any other openings to the outside.</p>
+    <p>• Avoid overcrowding by selecting several rooms if necessary</p>
+    <p>• Monitor WPI Alert and email for further instructions</p>
+    <p>• Report any emergency or unusual conditions to WPI Police.</p>
+    <p>• Do not leave the building until receiving the “all clear” from a police officer, WPI Alert, email or website.</p>
+    <button class ="closeButton" onclick="toggleDiv('ShelterInPlace')"><b>Close X</b></button>
+    <br>
+    <hr>
+</div>
+
+<div id="Fire">
+    <h3 style="color: #8B0000">Fire</h3>
+    <p>Shelter-in-Place is designed to keep you safe while indoors if dangerous environmental conditions exist, such as extreme weather or a hazardous
+        materials release.</p>
+    <p>If a Shelter-in-Place is ordered:</p>
+    <p>• If outside, seek shelter in the nearest building, preferably in an interior room with few windows.</p>
+    <p>• Allow access to others seeking shelter. Remember: a Shelter-in-Place order means there are dangerous environmental conditions but NOT any
+        known threat of violent behavior. Allowing others into the building will not jeopardize your safety.</p>
+    <p>• Close all exterior doors, windows and any other openings to the outside.</p>
+    <p>• Avoid overcrowding by selecting several rooms if necessary</p>
+    <p>• Monitor WPI Alert and email for further instructions</p>
+    <p>• Report any emergency or unusual conditions to WPI Police.</p>
+    <p>• Do not leave the building until receiving the “all clear” from a police officer, WPI Alert, email or website.</p>
+    <button class ="closeButton" onclick="toggleDiv('Fire')"><b>Close X</b></button>
+    <br>
+    <hr>
+</div>
+
+<div id="FireEvacuation">
+    <h3 style="color: #8B0000">Fire Evacuation</h3>
+    <p>Shelter-in-Place is designed to keep you safe while indoors if dangerous environmental conditions exist, such as extreme weather or a hazardous
+        materials release.</p>
+    <p>If a Shelter-in-Place is ordered:</p>
+    <p>• If outside, seek shelter in the nearest building, preferably in an interior room with few windows.</p>
+    <p>• Allow access to others seeking shelter. Remember: a Shelter-in-Place order means there are dangerous environmental conditions but NOT any
+        known threat of violent behavior. Allowing others into the building will not jeopardize your safety.</p>
+    <p>• Close all exterior doors, windows and any other openings to the outside.</p>
+    <p>• Avoid overcrowding by selecting several rooms if necessary</p>
+    <p>• Monitor WPI Alert and email for further instructions</p>
+    <p>• Report any emergency or unusual conditions to WPI Police.</p>
+    <p>• Do not leave the building until receiving the “all clear” from a police officer, WPI Alert, email or website.</p>
+    <button class ="closeButton" onclick="toggleDiv('FireEvacuation')"><b>Close X</b></button>
+    <br>
+    <hr>
+</div>
+
+<div class="row3">
+    <button class="box" onclick="toggleDiv('BombThreat','row3')"><b>Bomb Threat</b></button>
+    <button class="box2Row3" onclick="toggleDiv('SuspiciousPackage','row3')"><b>Suspicious Package</b></button>
+    <button class="box" onclick="toggleDiv('Hazardous','row3')"><b>Hazardous Material Incident</b></button>
+    <button class="box" onclick="toggleDiv('EmergencyNotifications','row3')"><b>Emergency Notifications</b></button>
+
+</div>
+
+<div id="BombThreat">
+    <h3 style="color: #8B0000">Bomb Threat</h3>
+    <p>This is dummy text</p>
+    <p>If a Shelter-in-Place is ordered:</p>
+    <p>• If outside, seek shelter in the nearest building, preferably in an interior room with few windows.</p>
+    <p>• Allow access to others seeking shelter. Remember: a Shelter-in-Place order means there are dangerous environmental conditions but NOT any
+        known threat of violent behavior. Allowing others into the building will not jeopardize your safety.</p>
+    <p>• Close all exterior doors, windows and any other openings to the outside.</p>
+    <p>• Avoid overcrowding by selecting several rooms if necessary</p>
+    <p>• Monitor WPI Alert and email for further instructions</p>
+    <p>• Report any emergency or unusual conditions to WPI Police.</p>
+    <p>• Do not leave the building until receiving the “all clear” from a police officer, WPI Alert, email or website.</p>
+    <button class ="closeButton" onclick="toggleDiv('BombThreat')"><b>Close X</b></button>
+    <br>
+    <hr>
+</div>
+
+<div id="SuspiciousPackage">
+    <h3 style="color: #8B0000">Suspicious Package</h3>
+    <p>Shelter-in-Place is designed to keep you safe while indoors if dangerous environmental conditions exist, such as extreme weather or a hazardous
+        materials release.</p>
+    <p>If a Shelter-in-Place is ordered:</p>
+    <p>• If outside, seek shelter in the nearest building, preferably in an interior room with few windows.</p>
+    <p>• Allow access to others seeking shelter. Remember: a Shelter-in-Place order means there are dangerous environmental conditions but NOT any
+        known threat of violent behavior. Allowing others into the building will not jeopardize your safety.</p>
+    <p>• Close all exterior doors, windows and any other openings to the outside.</p>
+    <p>• Avoid overcrowding by selecting several rooms if necessary</p>
+    <p>• Monitor WPI Alert and email for further instructions</p>
+    <p>• Report any emergency or unusual conditions to WPI Police.</p>
+    <p>• Do not leave the building until receiving the “all clear” from a police officer, WPI Alert, email or website.</p>
+    <button class ="closeButton" onclick="toggleDiv('SuspiciousPackage')"><b>Close X</b></button>
+    <br>
+    <hr>
+</div>
+
+<div id="Hazardous">
+    <h3 style="color: #8B0000">Hazardous Material Incident</h3>
+    <p>Shelter-in-Place is designed to keep you safe while indoors if dangerous environmental conditions exist, such as extreme weather or a hazardous
+        materials release.</p>
+    <p>If a Shelter-in-Place is ordered:</p>
+    <p>• If outside, seek shelter in the nearest building, preferably in an interior room with few windows.</p>
+    <p>• Allow access to others seeking shelter. Remember: a Shelter-in-Place order means there are dangerous environmental conditions but NOT any
+        known threat of violent behavior. Allowing others into the building will not jeopardize your safety.</p>
+    <p>• Close all exterior doors, windows and any other openings to the outside.</p>
+    <p>• Avoid overcrowding by selecting several rooms if necessary</p>
+    <p>• Monitor WPI Alert and email for further instructions</p>
+    <p>• Report any emergency or unusual conditions to WPI Police.</p>
+    <p>• Do not leave the building until receiving the “all clear” from a police officer, WPI Alert, email or website.</p>
+    <button class ="closeButton" onclick="toggleDiv('Hazardous')"><b>Close X</b></button>
+    <br>
+    <hr>
+</div>
+
+<div id="EmergencyNotifications">
+    <h3 style="color: #8B0000">Emergency Notifications</h3>
+    <p>Dummy text</p>
+    <p>If a Shelter-in-Place is ordered:</p>
+    <p>• If outside, seek shelter in the nearest building, preferably in an interior room with few windows.</p>
+    <p>• Allow access to others seeking shelter. Remember: a Shelter-in-Place order means there are dangerous environmental conditions but NOT any
+        known threat of violent behavior. Allowing others into the building will not jeopardize your safety.</p>
+    <p>• Close all exterior doors, windows and any other openings to the outside.</p>
+    <p>• Avoid overcrowding by selecting several rooms if necessary</p>
+    <p>• Monitor WPI Alert and email for further instructions</p>
+    <p>• Report any emergency or unusual conditions to WPI Police.</p>
+    <p>• Do not leave the building until receiving the “all clear” from a police officer, WPI Alert, email or website.</p>
+    <button class ="closeButton" onclick="toggleDiv('EmergencyNotifications')"><b>Close X</b></button>
+    <br>
+    <hr>
+</div>
+
+
+
+<div class="row4">
+    <button class="box" onclick="toggleDiv('EvacuatingDisabled','row4')"><b>Evacuating the Disabled</b></button>
+    <button class="box2Row4" onclick="toggleDiv('MedicalEmergency','row4')"><b>Medical Emergency</b></button>
+    <button class="box" onclick="toggleDiv('StudentInDistress','row4')"><b>Student in Distress</b></button>
+    <button class="box" onclick="toggleDiv('Weather','row4')"><b>Weather Emergency</b></button>
+</div>
+<div id="EvacuatingDisabled">
+    <h3 style="color: #8B0000">Evacuating the Disabled</h3>
+    <p>This is dummy text</p>
+    <p>If a Shelter-in-Place is ordered:</p>
+    <p>• If outside, seek shelter in the nearest building, preferably in an interior room with few windows.</p>
+    <p>• Allow access to others seeking shelter. Remember: a Shelter-in-Place order means there are dangerous environmental conditions but NOT any
+        known threat of violent behavior. Allowing others into the building will not jeopardize your safety.</p>
+    <p>• Close all exterior doors, windows and any other openings to the outside.</p>
+    <p>• Avoid overcrowding by selecting several rooms if necessary</p>
+    <p>• Monitor WPI Alert and email for further instructions</p>
+    <p>• Report any emergency or unusual conditions to WPI Police.</p>
+    <p>• Do not leave the building until receiving the “all clear” from a police officer, WPI Alert, email or website.</p>
+    <button class ="closeButton" onclick="toggleDiv('EvacuatingDisabled')"><b>Close X</b></button>
+    <br>
+    <hr>
+</div>
+
+<div id="MedicalEmergency">
+    <h3 style="color: #8B0000">Medical Emergency</h3>
+    <p>Shelter-in-Place is designed to keep you safe while indoors if dangerous environmental conditions exist, such as extreme weather or a hazardous
+        materials release.</p>
+    <p>If a Shelter-in-Place is ordered:</p>
+    <p>• If outside, seek shelter in the nearest building, preferably in an interior room with few windows.</p>
+    <p>• Allow access to others seeking shelter. Remember: a Shelter-in-Place order means there are dangerous environmental conditions but NOT any
+        known threat of violent behavior. Allowing others into the building will not jeopardize your safety.</p>
+    <p>• Close all exterior doors, windows and any other openings to the outside.</p>
+    <p>• Avoid overcrowding by selecting several rooms if necessary</p>
+    <p>• Monitor WPI Alert and email for further instructions</p>
+    <p>• Report any emergency or unusual conditions to WPI Police.</p>
+    <p>• Do not leave the building until receiving the “all clear” from a police officer, WPI Alert, email or website.</p>
+    <button class ="closeButton" onclick="toggleDiv('MedicalEmergency')"><b>Close X</b></button>
+    <br>
+    <hr>
+</div>
+
+<div id="StudentInDistress">
+    <h3 style="color: #8B0000">Student in Distress</h3>
+    <p>Shelter-in-Place is designed to keep you safe while indoors if dangerous environmental conditions exist, such as extreme weather or a hazardous
+        materials release.</p>
+    <p>If a Shelter-in-Place is ordered:</p>
+    <p>• If outside, seek shelter in the nearest building, preferably in an interior room with few windows.</p>
+    <p>• Allow access to others seeking shelter. Remember: a Shelter-in-Place order means there are dangerous environmental conditions but NOT any
+        known threat of violent behavior. Allowing others into the building will not jeopardize your safety.</p>
+    <p>• Close all exterior doors, windows and any other openings to the outside.</p>
+    <p>• Avoid overcrowding by selecting several rooms if necessary</p>
+    <p>• Monitor WPI Alert and email for further instructions</p>
+    <p>• Report any emergency or unusual conditions to WPI Police.</p>
+    <p>• Do not leave the building until receiving the “all clear” from a police officer, WPI Alert, email or website.</p>
+    <button class ="closeButton" onclick="toggleDiv('StudentInDistress')"><b>Close X</b></button>
+    <br>
+    <hr>
+</div>
+
+<div id="Weather">
+    <h3 style="color: #8B0000">Weather Emergency</h3>
+    <p>Shelter-in-Place is designed to keep you safe while indoors if dangerous environmental conditions exist, such as extreme weather or a hazardous
+        materials release.</p>
+    <p>If a Shelter-in-Place is ordered:</p>
+    <p>• If outside, seek shelter in the nearest building, preferably in an interior room with few windows.</p>
+    <p>• Allow access to others seeking shelter. Remember: a Shelter-in-Place order means there are dangerous environmental conditions but NOT any
+        known threat of violent behavior. Allowing others into the building will not jeopardize your safety.</p>
+    <p>• Close all exterior doors, windows and any other openings to the outside.</p>
+    <p>• Avoid overcrowding by selecting several rooms if necessary</p>
+    <p>• Monitor WPI Alert and email for further instructions</p>
+    <p>• Report any emergency or unusual conditions to WPI Police.</p>
+    <p>• Do not leave the building until receiving the “all clear” from a police officer, WPI Alert, email or website.</p>
+    <button class ="closeButton" onclick="toggleDiv('Weather')"><b>Close X</b></button>
+    <br>
+    <hr>
+</div>
+
+<br> <br> <br>
+<h4 class="bottomBanner"></h4>
+
+
+</body>
+</html>

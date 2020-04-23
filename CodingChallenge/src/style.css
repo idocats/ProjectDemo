@@ -1,0 +1,86 @@
+    .topBanner {
+        margin-top: -10px;
+        margin-left: -10px;
+        margin-right: -10px;
+        background-color: #363636;
+        color: white;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 2%;
+        font-family: "Verdana";
+        }
+    .title {
+        text-align: center;
+        }
+    .top_box {
+        border: 1px solid gray;
+        margin: auto;
+        width: 70%;
+        padding: 0px 12px;
+        }
+    .phone_number {
+        color: #8B0000;
+        }
+    #EmergencyContacts, #ReportingEmergencies, #ActiveShooter, #HostageSituation, #Lockdown, #ShelterInPlace, #Fire, #FireEvacuation, #BombThreat, #SuspiciousPackage, #Hazardous, #EmergencyNotifications, #EvacuatingDisabled, #MedicalEmergency, #StudentInDistress, #Weather {
+        margin-top: 30px;
+        display: none;
+        margin-right: 10%;
+        margin-left: 10%;
+        text-align: left;
+        }
+    .row1, .row2, .row3, .row4 {
+        margin: 0 auto;
+        text-align: center;
+        /*
+        margin-left: 12%;
+        margin-right: -18%;
+        */
+        }
+    .box, .box2Row1, .box2Row2, .box2Row3, .box2Row4 {
+        background-color: black;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 13px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 15px;
+        cursor: pointer;
+        height: 90px;
+        width: 17%;
+        text-transform: uppercase;
+        vertical-align: middle;
+        }
+    .box:hover, .box2Row1:hover, .box2Row2:hover, .box2Row3:hover, .box2Row4:hover {
+         background-color: #8B0000;
+        }
+    .closeButton {
+        background-color: #8B0000;
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 8px;
+        float: right;
+        cursor: pointer;
+        height: 15px;
+        width: 50px;
+        text-transform: uppercase;
+        }
+    .bottomBanner {
+        height: 100px;
+        background-image: linear-gradient(#4f4f4f, #292929);
+        margin-top: -10px;
+        margin-left: -10px;
+        margin-right: -10px;
+        }
+    /* Use a media query to add a break point at 800px: */
+    @media screen and (max-width:750px) {
+      .box, .box2Row1, .box2Row2, .box2Row3, .box2Row4  {
+        width: 34%; /* The width is 100%, when the viewport is 800px or smaller */
+      }
+
+
